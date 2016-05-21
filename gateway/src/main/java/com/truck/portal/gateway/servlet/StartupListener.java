@@ -77,7 +77,7 @@ public class StartupListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent sce) {
         try {
             //Tomcat的WebappClassLoader加载指定目录的jar文件
-            WebappClassLoader loader = (WebappClassLoader)((Object)this).getClass().getClassLoader();
+            WebappClassLoader loader = (WebappClassLoader)getClass().getClassLoader();
             File apiJarDirectory = new File(ApiConfig.getInstance().getApiJarPath());  //被托管的api jar包目录
             //dubbo 的 applicationConfig 应用信息配置(name:当前应用名称，用于注册中心计算应用间依赖关系)
             ApplicationConfig application = new ApplicationConfig();
