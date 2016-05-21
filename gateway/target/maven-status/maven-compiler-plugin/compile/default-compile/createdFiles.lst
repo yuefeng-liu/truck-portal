@@ -1,0 +1,11 @@
+com\truck\portal\gateway\servlet\DemoServlet.class
+com\truck\portal\gateway\common\SignatureAlgorithm.class
+com\truck\portal\gateway\common\ApiConfig.class
+com\truck\portal\gateway\servlet\InfoServlet.class
+com\truck\portal\gateway\common\RiskManager$RiskManagerHolder.class
+com\truck\portal\gateway\common\RiskManager.class
+com\truck\portal\gateway\common\KeysConfig.class
+com\truck\portal\gateway\servlet\MultiServlet.class
+com\truck\portal\gateway\servlet\StartupListener$1.class
+com\truck\portal\gateway\common\RiskManager$1.class
+com\truck\portal\gateway\servlet\StartupListener.class
